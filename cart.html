@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Ecom</title>
+    <link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Bootstrap icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <img src="/assets/img/logo.png" alt="techmeta ecommerce logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shop">SHOP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#lookbook">LOOKBOOK</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#clothing">CLOTHING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">LOGIN</a>
+              </li>
+
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-dark" type="button"><i class="bi bi-search"></i></button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <section id="product" class="py-5 my-5">
+      <div class="container">
+          <!-- breadcrumb -->
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Shopping Cart</li>
+            </ol>
+          </nav>
+          <hr>
+          <!-- shopping cart-->
+            <h3 class="display-3">Shopping Cart</h3>
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Remove</th>
+                  <th>Image</th>
+                  <th>Product Name</th>
+                  <th>Edit</th>
+                  <th>Unit Price</th>
+                  <th>Quantity</th>
+                  <th>Subtotal</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <i class="bi bi-trash"></i>
+                  </td>
+                  <td>
+                    <img src="/assets/img/4.webp" width="100" alt="" class="img-fluid">
+                  </td>
+                  <td>	Pellentesque hendrerit </td>
+                  <td><i class="bi bi-pencil"></i></td>
+                  <td>&#8358; 25000</td>
+                  <td>2</td>
+                  <td><strong>50000</strong></td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="bi bi-trash"></i>
+                  </td>
+                  <td>
+                    <img src="/assets/img/5.webp" width="100" alt="" class="img-fluid">
+                  </td>
+                  <td>	Pellentesque hendrerit </td>
+                  <td><i class="bi bi-pencil"></i></td>
+                  <td>&#8358; 25000</td>
+                  <td>2</td>
+                  <td><strong>50000</strong></td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <div class="d-grid">
+                      <a href="product.html" class="btn btn-outline-danger">
+                        Continue To Shopping
+                      </a>
+                    </div>
+                  </td>
+                  <td colspan="2">
+                    <div class="d-grid">
+                      <a href="" class="btn btn-outline-danger">
+                        Clear Shopping Cart
+                      </a>
+                    </div>
+                  </td>
+                  <td colspan="3">
+                    <d class="d-grid">
+                      <a href="" class="btn btn-outline-danger">
+                        Proceed To Checkout
+                      </a>
+                    </d>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+      </div>
+    </section>
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
